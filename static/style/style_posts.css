@@ -1,0 +1,19 @@
+.post__list {
+  display: block;
+}
+
+.post__item {
+  list-style-type: none;
+  margin: 1rem 0;
+}
+
+.post__item a {
+  text-decoration: none;
+  color: inherit;
+  padding-bottom: .5rem;
+  border-bottom: 1px solid var(--text-color-primary);
+}
+
+body.light .post__item a {
+  border-bottom: 1px solid var(--text-color-secondary);
+}
